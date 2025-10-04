@@ -1,0 +1,21 @@
+Git commands:
+====================
+git config --global --list
+git config --global --list --show-origin
+git restore --staged <file_name>
+git checkout -- <file_name> -> restore the file from local repo to working directory discarding changes in the file in the working directory
+
+git reset --soft <commit hash to become new HEAD>
+	file changes are still in the staging area:
+	git restore --staged <file_name>
+	git checkout -- <file_name>
+
+git ls-files
+	See all files in staging area
+ 
+git stash list
+git statsh save <msg>
+git statsh apply <stash_number>
+git stash drop <stash_number> 
+git stash pop <stash_number>
+	git stash apply + git stahs drop at the same time
