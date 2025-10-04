@@ -19,3 +19,23 @@ git statsh apply <stash_number>
 git stash drop <stash_number> 
 git stash pop <stash_number>
 	git stash apply + git stahs drop at the same time
+
+git push origin --all
+	push all local branches to origin
+	
+git fetch --all
+	fetch updates from all remote branches
+	
+git merge <branch>	
+	--conflicts
+	git mergetool
+		resolve conflicts
+	git commit 
+		commit after all conflicts resolved
+	git merge --abort
+		if conflicts not resolved
+
+git pull --rebase
+	if error
+	git rebase --abort
+	

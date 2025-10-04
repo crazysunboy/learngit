@@ -1,1 +1,3 @@
 This is a sample text file, text is ok. Updating file.
+Added line in branch develop
+Added line in the feature branch.
