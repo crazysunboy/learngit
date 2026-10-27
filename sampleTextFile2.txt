@@ -2,3 +2,4 @@ This is a sample text file, text is ok
 Updated file in line 2 in feature branch and Updated file in line 2 in develop branch
 Line 3 in feature branch
 Line 4 in feature branch
+line 5 feature-a
